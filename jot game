@@ -1,0 +1,71 @@
+print(r'''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\ ` . "-._ /_______________|_______
+|                   | |o ;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+direction =input("where d you want to go left or right")
+
+if direction =="left":
+    print(" you have arrived at a castle")
+    fight =input("there a person standing few feets away from you with a knife would you like to fight with him type yes or no\n")
+    if fight =="no":
+        print("good you are weak you cant fight with him ")
+
+        choice =input("now that man is chasing you but there is a stone next to you would you like to throw at him or run")
+
+        if choice=="run":
+            print("good rember you are weak and your aim also")
+
+            print("well thankfully you are good at running you manged to escape ")
+
+            home =input("now would you like to go home or explore the castle")
+            if home =="explore":
+                print("exelent")
+                print(".........")
+
+                noi=input("its been server hours would you still like to explore type yes or no ")
+                if noi=='yes'or"no":
+                    print("who said you have a choice")
+                    print("there is a bright light in a locked romm")
+                    print("you opend the door congratulation you find the treasure")
+                    rating=input("rate this game 1 for * and 5  for * star ")
+                    if rating =="5":
+                        print("thanks you comleted this challenge")
+                    else:
+                        print("your treaser got dtolen by that man beacuse of rating cause he is the creator of this game")
+
+                else:
+                    print("wrong input")
+
+
+
+
+
+            else:
+                print("while leaving the castle that man caught you and everyone knows what happens after that")
+
+
+        else:
+            print("you are dead your aim sucks")
+
+    else:
+        print(" you are dead game over haaaaaaaaaaa")
